@@ -10,6 +10,7 @@ body {
   font-family: "Manrope", sans-serif;
   max-width: 1440px;
   margin: 0 auto;
+  box-shadow: 0 0 100px 10px #000;
 }
 
 .container {
@@ -151,6 +152,12 @@ a {
   gap: 13px;
   border: none;
   background-color: transparent;
+  transition: background 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.section-one > .container > .cards > .card > .shop:hover {
+    opacity: 70%;
 }
 
 .section-one > .container > .cards > .card > .shop > span {
@@ -238,6 +245,12 @@ a {
   font-size: 13px;
   line-height: 18px;
   border: none;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.desc-btn:hover {
+    background-color: #313030;
 }
 
 .section-three {
@@ -278,6 +291,12 @@ a {
   line-height: 17.76px;
   font-size: 13px;
   letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #635d5d;
 }
 
 .section-four {
